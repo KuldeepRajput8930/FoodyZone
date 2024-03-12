@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    min-height: 167px;
+    max-width: 340px;
+    min-width: 248px;
+    border: 2px solid #979797;
+    border-radius: 19.45px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(127, 133, 133, 0.3);
+    align-self: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recepie_name {
+    font-size: 20px;
+}
+
+.descreption {
+    font-size: 13px;
+}
+
+.purchase_btn {
+    align-self: flex-end;
+    width: 57px;
+    background: #FF4343;
+    height: 25px;
+    font-size: 14px;
+    border: none;
+    padding: 4px, 6px, 4px, 6px;
+    border-radius: 5px;
+}

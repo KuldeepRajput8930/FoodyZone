@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 241px;
+    width: 100%;
+    background-color: #3b3b3c;
+    padding: 10px;
+}
+
+.nav-container {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brandname {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.brandname span {
+    color: #FF0909;
+}
+
+#search {
+    height: 40px;
+    width: 28.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #FF0909;
+    background-color: #3b3b3c;
+    color: #fff;
+    padding: 10px;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.category li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #FF4343;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ------------------------------media-queires------------------------------------- */
+
+@media screen and (max-width: 720px) {
+.nav-container{
+    width: 95%;
+}
+    #search{
+        width: 230px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .navbar{
+      align-items: center;
+      justify-content: center;
+    }
+    .category {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .category li{
+      font-size: 12px;
+      padding: 10px;
+
+    }
+    #search{
+        width: 230px;
+    }
+     .nav-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}
