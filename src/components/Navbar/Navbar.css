@@ -26,7 +26,7 @@ li {
     flex-direction: column;
     min-height: 241px;
     width: 100%;
-    background-color: #3b3b3c;
+    background-color: #2d4852;
     padding: 10px;
 }
 
@@ -52,11 +52,14 @@ li {
     height: 40px;
     width: 28.5rem;
     border-radius: 5px;
-    outline: none;
+    outline: #FF0909;
     border: 1px solid #FF0909;
-    background-color: #3b3b3c;
+    background-color: #2d4852;
     color: #fff;
     padding: 10px;
+}
+#search:focus{
+    border: 2px solid red;
 }
 
 .category {
